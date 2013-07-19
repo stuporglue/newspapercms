@@ -1,0 +1,15 @@
+Ability to browse by year or newspaper. So if you're on The Herald for June 15, 1890 you could either move sequentially to The Herald June 22, 1890 or to The Telegraph June 15,1890. 
+
+Ability to search by newspaper and/or date range and/or metadata 
+
+If a reel hasn't been digitized, give the user the option to pay for that reel's digitization. Offer PayPal?/Google Checkout/etc. links 
+
+Display a progress meter showing which reels need to be digitized still and which years/papers they correspond to. 
+
+Ability to tag pages as containing specific features such as weather reports, obituaries, sports reports, mine news, etc. 
+
+Ability to tag people on specific pages 
+
+User initiated Zonal OCR and OCR correction for specific articles 
+
+Some level of Dublin Core implementation 

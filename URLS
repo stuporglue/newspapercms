@@ -1,0 +1,49 @@
+ The URL structure we want to present to the user
+Updated Apr 26, 2012 by stuporglue
+
+Some ideas:
+By Reel
+
+    reel 
+
+A list of
+
+    film/$id 
+
+Shows film metadata and list of newspapers and issues found on this film. Links to next and previous film by date
+By Newspaper
+
+    newspaper 
+
+A list of newspapers
+
+    newspaper/$newspaper 
+
+Shows newspaper metadata, list of films this paper came from, list of issues
+
+    newspaper/$newspaper/$year
+    newspaper/$newspaper/$year/$month 
+
+Like /newspaper/$newspaper but filtered by date
+
+    newspaper/$newspaper/issue-$issue 
+
+Shows metadata about single issue of the newspaper. Links to each page, and to the newspaper page and roll. Links to next and previous issue.
+
+    newspaper/$newspaper/issue-$issue/$page 
+
+Shows single page metadata, the web-sized image and download link for full sized image. Links back to issue, newspaper and roll. Shows OCR text of page and gives option to correct it. Links to next and previous page.
+By Date
+
+    date 
+
+A calendar
+
+    date/$year 
+
+Show links to all /newspaper/$newspaper/$year which have publications in that year
+
+    date/$year/$month 
+
+Show links to all issues found for that month at /newspaper/$newspaper/$issue
+
