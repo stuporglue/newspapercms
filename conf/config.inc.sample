@@ -1,0 +1,27 @@
+<?php
+
+// Uncomment these for debugging
+// error_reporting(E_ALL);
+// ini_set("display_errors", 1);
+
+// Define your MySQL connection
+define('MYSQL_HN','localhost');
+define('MYSQL_DB','stuporgl_archive');
+define('MYSQL_UN','stuporgl_archive');
+define('MYSQL_PW','cQ85vT=f,PZD');
+
+// Set the site name
+define('NPC_SITENAME','My Newspaper Archives');
+
+// Set path to large, medium and thumbnail images
+define('NPC_LARGE_PATH','/var/www/');
+define('NPC_MEDIUM_PATH','/var/www/');
+define('NPC_THUMBNAIL_PATH','/var/www/');
+
+// External tools
+define('IM_CONVERT',trim(`which convert`)); // Path to imagemagick's convert program
+define("IM_MEDIUM_RESIZE_OPTIONS",'1000x>');
+
+
+define('TESSERACT',trim(`which tesseract`)); // Path to the tesseract program -- default opts
+define('TESSERACT','/usr/bin/tesseract -l eng+spa+deu'); // Path to the tesseract program -- try in English, then spanish, then german

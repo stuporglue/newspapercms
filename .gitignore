@@ -1,0 +1,7 @@
+^config\.inc$
+^load_to_production\.sh$
+^nbproject$
+^custom_.*/
+^tools/scans\.csv$
+^conf/config\.inc$
+^js/pixastic$
